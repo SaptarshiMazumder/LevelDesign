@@ -49,6 +49,6 @@ public class DayNightCycleController : MonoBehaviour
             }
         }
 
-        time = 0.5f;
+        time = 0.7f;
     }
 }
