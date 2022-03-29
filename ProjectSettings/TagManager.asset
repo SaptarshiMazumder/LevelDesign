@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - village1
+  - rain1start
+  - rain1end
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,7 @@ public class DayNightCycleController : MonoBehaviour
 
     private void OnEnable()
     {
-        time = 0;
+        time = 0.1f;
         day = true;
         GetSetters();
     }
@@ -49,6 +49,6 @@ public class DayNightCycleController : MonoBehaviour
             }
         }
 
-        time = 0.7f;
+       
     }
 }
