@@ -13,7 +13,8 @@ public class SimpleMovement : MonoBehaviour
     float lerp1 = 0f;
     float lerp2 = 0f;
     public GameObject rainController1;
-    public ParticleSystem rain1end;
+    public ParticleSystem rain1end1;
+    public ParticleSystem rain1end2;
 
 
     void Start()
@@ -67,7 +68,8 @@ public class SimpleMovement : MonoBehaviour
         }
         else if(other.gameObject.CompareTag("rain1end"))
         {
-            rain1end.loop = false;
+            rain1end1.loop = false;
+            rain1end2.loop = false;
             Destroy(rainController1, 5f);
         }
     }
